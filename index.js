@@ -1,5 +1,4 @@
 import data from './products.json' assert { type: "json" };
-console.log(data)
 
 const body = document.querySelector('body')
 
@@ -14,12 +13,7 @@ productsList.className = 'products-list'
 let activeTabId = 1
 
 const categories = data.categories
-console.log(categories)
 const products = data.products
-console.log(products)
-
-
-
 
 const changeActiveTab = (e) => {
     activeTabId = +e.target.id
