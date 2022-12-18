@@ -51,7 +51,7 @@ const renderProductsList = () => {
         product.className = 'product-card'
         const productPhoto = document.createElement('img')
         productPhoto.className = 'product-photo'
-        productPhoto.src = "./img/tovar.jpg"
+        productPhoto.src = "http://rrstatic.retailrocket.net/test_task/tovar.jpg"
         
         if(products[i].categoryId === activeTabId){
             const productTitle = document.createElement('span')
